@@ -1,0 +1,61 @@
+
+body {
+
+	background: #E3F2FD; 
+ 
+}
+
+h1 {
+	text-align: center;
+        margin: 68px;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  font-size: 200%;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+  opacity: 0.7;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}

@@ -1,0 +1,23 @@
+body {
+
+	background: #263238; 
+ 
+}
+
+h1 {
+	text-align: center;
+        margin: 68px;
+}
+
+
+.carousel-item {
+    height: 25rem;
+    background: #000;
+    
+     
+}
+
+.carousel-item img {
+    opacity: 0.5;
+}
+
